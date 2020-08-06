@@ -1,0 +1,14 @@
+[
+  {
+    "repository": "rzlamrr/vendor_xiaomi_riva",
+    "target_path": "vendor/xiaomi/riva",
+    "branch": "ten",
+    "remote": "github"
+  },
+  {
+    "repository": "rzlamrr/kernel_xiaomi_msm8917",
+    "target_path": "kernel/xiaomi/msm8917",
+    "branch": "lineage-17.1",
+    "remote": "github
+  },
+]
