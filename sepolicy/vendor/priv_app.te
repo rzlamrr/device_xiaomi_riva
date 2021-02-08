@@ -2,3 +2,4 @@ allow priv_app device:dir { open read };
 allow priv_app proc_net:file read;
 allow priv_app firmware_file:filesystem getattr;
 allow priv_app anr_data_file:dir read;
+get_prop(priv_app, theme_prop)
