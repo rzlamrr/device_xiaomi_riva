@@ -1,3 +1,6 @@
 allow platform_app qemu_hw_mainkeys_prop:file read;
 allow platform_app sysfs_kgsl:dir search;
 get_prop(platform_app, theme_prop)
+
+# FPS info
+allow platform_app sysfs_graphics:file r_file_perms;
